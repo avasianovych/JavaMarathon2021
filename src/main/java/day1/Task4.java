@@ -5,9 +5,9 @@ public class Task4 {
 
         int year = 1980;
         int year2 = 2020;
-        while(year<=year2){
-            System.out.println("Олимпиада "+year+" года");
-            year = year+4;
+        while (year <= year2) {
+            System.out.println("Олимпиада " + year + " года");
+            year = year + 4;
 
         }
     }

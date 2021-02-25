@@ -8,18 +8,15 @@ public class Task4 {
 
         Scanner scanner = new Scanner(System.in);
         double x = scanner.nextDouble();
+        double y;
 
         if (x >= 5) {
-            double y = (Math.pow(x, 2) - 10) / (x + 7);
-            System.out.println(y);
+            y = (Math.pow(x, 2) - 10) / (x + 7);
         } else if (x > -3 && x < 5) {
-            double y = (x + 3) * (Math.pow(x, 2) - 2);
-            System.out.println(y);
-
+            y = (x + 3) * (Math.pow(x, 2) - 2);
         } else {
-            double y = 420;
-            System.out.println(y);
-
+            y = 420;
         }
+        System.out.println(y);
     }
 }
